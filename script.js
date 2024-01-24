@@ -19,3 +19,21 @@ login-link.addEventlistener('click', ()=> {
 btnSignup.addEventlistener('click', ()=> {
     wrapper.classList.remove('active popup');
 });
+
+fetch('https://regres.in/users/23') {
+method: 'POST'
+Headers: {
+    'Content-type'; 'login/json'
+}
+.then(res =>)
+if(Response.ok) {
+    console.log ('success')
+}
+
+else {
+    console.log ('Not Successful')
+}
+
+then(data => console.log (data))
+.catch(Error => console.log (ERROR))
+}   
