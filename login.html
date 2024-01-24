@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--Font family link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;700&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <!--Link to stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circle-2"></div>
+    <header>
+        <nav>
+            <a href="#"><img src="image/Logo.png" class="logo" alt="Logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn-login"> <a class="active" href="login.html">Login</a></button>
+        </nav>
+    </header>
+
+    <main id="login">
+        <div class="wrapper">
+            <span class="icon-close"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg></span>
+            <div class="form-box">
+                <h3>Login</h3>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="brown" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg></span>
+                        <input type="email" required> 
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="brown" viewBox="0 0 256 256"><path d="M53.92,34.62A8,8,0,1,0,42.08,45.38L61.32,66.55C25,88.84,9.38,123.2,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208a127.11,127.11,0,0,0,52.07-10.83l22,24.21a8,8,0,1,0,11.84-10.76Zm89,121.69a32,32,0,0,1-41.67-45.85Zm104.39-25.05c-.42.94-10.55,23.37-33.36,43.8a8,8,0,0,1-11.26-.57L101.4,63.07A8,8,0,0,1,106,49.79,134,134,0,0,1,128,48c34.88,0,66.57,13.26,91.66,38.35,18.83,18.83,27.3,37.62,27.65,38.41A8,8,0,0,1,247.31,131.26Z"></path></svg></span>
+                        <input type="password" required> 
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="login-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box-register">
+                <h3>Registration</h3>
+                <form action="#" method="get">
+                    <div class="input-box">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#f4ecec" viewBox="0 0 256 256"><path d="M234.38,210a123.36,123.36,0,0,0-60.78-53.23,76,76,0,1,0-91.2,0A123.36,123.36,0,0,0,21.62,210a12,12,0,1,0,20.77,12c18.12-31.32,50.12-50,85.61-50s67.49,18.69,85.61,50a12,12,0,0,0,20.77-12ZM76,96a52,52,0,1,1,52,52A52.06,52.06,0,0,1,76,96Z"></path></svg>></span>
+                        <input type="text" required> 
+                        <label>Username</label>
+                    <div class="input-box">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="brown" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg></span>
+                        <input type="email" required> 
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="brown" viewBox="0 0 256 256"><path d="M53.92,34.62A8,8,0,1,0,42.08,45.38L61.32,66.55C25,88.84,9.38,123.2,8.69,124.76a8,8,0,0,0,0,6.5c.35.79,8.82,19.57,27.65,38.4C61.43,194.74,93.12,208,128,208a127.11,127.11,0,0,0,52.07-10.83l22,24.21a8,8,0,1,0,11.84-10.76Zm89,121.69a32,32,0,0,1-41.67-45.85Zm104.39-25.05c-.42.94-10.55,23.37-33.36,43.8a8,8,0,0,1-11.26-.57L101.4,63.07A8,8,0,0,1,106,49.79,134,134,0,0,1,128,48c34.88,0,66.57,13.26,91.66,38.35,18.83,18.83,27.3,37.62,27.65,38.41A8,8,0,0,1,247.31,131.26Z"></path></svg></span>
+                        <input type="password" required> 
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+        </div>
+
+            </form>
+        </div>
+    </main>
+    
+
+    <script src="script.js"></script>
+    <script type="mobile"></script>
+</body>
+</html>
